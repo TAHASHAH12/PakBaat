@@ -1,0 +1,84 @@
+.register {
+  height: 100vh;
+  background: url("https://wallpapers.com/images/hd/pakistan-flag-with-random-folded-spots-bsmdg0brbhif6l8d.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(11, 96, 27, 0.5), rgba(11, 96, 24, 0.5)),
+                  url("https://www.pxfuel.com/en/desktop-wallpaper-xegwg") center;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+        color: black;
+      }
+
+      span {
+        font-size: 14px;
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value for transparency */
+        color: rebeccawhitepurple; /* Assuming 'rebeccawhitepurple' is a color variable */
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+
+      h1 {
+        color: black;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid white; /* Assuming you meant to add 'solid' here */
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: rgba(128, 128, 128, 0.7); /* Adjust the alpha value for transparency */
+          color: black;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

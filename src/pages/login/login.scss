@@ -1,0 +1,86 @@
+.login {
+  height: 100vh;
+  background: url("https://cdn.wallpapersafari.com/27/80/1oU7WZ.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.8); /* Set background color to white with transparency */
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: rgba(23, 23, 23, 0.9); /* Set text color with transparency */
+
+      h1 {
+        font-size: 60px;
+        line-height: 120px; /* Adjust line height for better readability */
+        font-weight: bold; /* Add bold font weight */
+        margin-bottom: 20px; /* Add margin for separation */
+      }
+
+      span {
+        font-size: 16px; /* Increase font size for better readability */
+        line-height: 1.5; /* Adjust line height for better readability */
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.9); /* Set background color with transparency */
+        color: rgb(29, 28, 28);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      background: rgba(146, 200, 146, 0.8); /* Set background color to green with transparency */
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+        color: #1c1919;
+        font-size: 36px; /* Decrease font size for better readability */
+        font-weight: bold; /* Add bold font weight */
+        margin-bottom: 20px; /* Add margin for separation */
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid rgb(69, 68, 68);
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: white;
+          color: rgb(29, 28, 28);
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
